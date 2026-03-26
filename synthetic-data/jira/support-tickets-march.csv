@@ -1,0 +1,24 @@
+Ticket ID,Subject,Customer,Priority,Category,Status,Created,Resolved,Assignee,Resolution Notes
+ZD-8801,Expense report timeout during PDF generation,GlobalTech Inc,Critical,Performance,Open,2026-03-18,,Tomas Berger,Hotfix deployed (increased timeout). Pagination fix in Sprint 25.
+ZD-8802,Receipt OCR reads wrong amount on EUR receipt,Meridian Systems,High,OCR,Resolved,2026-03-18,2026-03-20,Tomas Berger,Known limitation with multi-currency. Fix in PR #1251.
+ZD-8803,Group booking - can't mix cabin classes,CloudNine Corp,Medium,Group Booking,Open,2026-03-18,,,Logged as SPEND-120. Sprint 25.
+ZD-8805,Policy violation message unclear - no policy name shown,BrightPath Consulting,Medium,Policy Engine,Open,2026-03-18,,,Known UX gap. Policy Engine v2 will address.
+ZD-8810,Mobile receipt photo blurry after upload,Synthwave Digital,Medium,Mobile,Open,2026-03-19,,,Auto-crop fix in SPEND-162 should help. Testing.
+ZD-8812,Expense report timeout - 54 line items,GlobalTech Inc,Critical,Performance,Resolved,2026-03-19,2026-03-19,Tomas Berger,Succeeded on retry after timeout increase.
+ZD-8815,Category picker slow to load on mobile,TechFlow AG,Low,Performance,Open,2026-03-19,,,Investigating. Might be API response time on mobile networks.
+ZD-8820,Group booking - can't edit after travelers confirm,Apex Dynamics,Medium,Group Booking,Open,2026-03-20,,,Feature request logged. Not in current scope.
+ZD-8822,Receipt OCR misreads GBP amounts with comma separator,NordTech GmbH,High,OCR,Open,2026-03-20,,,Related to SPEND-148. Multi-currency fix in progress.
+ZD-8825,Approval rule not triggering for $2800 expense,Apex Dynamics,Critical,Policy Engine,Resolved,2026-03-20,2026-03-22,Neil Rogers,Bug in AND condition evaluation. SPEND-163 fix deployed.
+ZD-8828,PDF export - table alignment broken for long descriptions,Meridian Systems,Low,Reporting,Resolved,2026-03-20,2026-03-21,Lydia Foster,Fixed in PR #1253 alongside currency symbol fix.
+ZD-8830,Expense report timeout - 82 line items,GlobalTech Inc,Critical,Performance,Open,2026-03-20,,,Awaiting pagination fix. Workaround: split report.
+ZD-8834,Approval rules still not working after previous fix,Apex Dynamics,Critical,Policy Engine,Resolved,2026-03-21,2026-03-22,Neil Rogers,Root cause identified - AND condition short-circuit bug. SPEND-163.
+ZD-8837,Group booking slow for 20+ travelers,GlobalTech Inc,High,Performance,Open,2026-03-21,,,Performance optimization needed for large groups. Logging for Sprint 25.
+ZD-8840,Want auto-categorization - when is it shipping?,Meridian Systems,Low,Feature Request,Closed,2026-03-21,2026-03-21,,Informed customer: target April 15. PM follow-up scheduled.
+ZD-8842,Receipt OCR fails completely on handwritten receipts,Apex Dynamics,Medium,OCR,Open,2026-03-22,,,Known gap. German/Austrian handwritten receipts particularly problematic.
+ZD-8845,Slack notification for expense approval - any plans?,BrightPath Consulting,Low,Feature Request,Closed,2026-03-22,2026-03-22,,Tudor building Slack bot. Approval notifications in SPEND-157.
+ZD-8848,Expense report timeout - 71 line items,GlobalTech Inc,Critical,Performance,Open,2026-03-22,,,Pieter personally following up. Pagination fix priority.
+ZD-8850,Group booking - no confirmation email to travelers,CloudNine Corp,Medium,Group Booking,Open,2026-03-23,,,Travelers confirmed but didn't receive confirmation email. Investigating.
+ZD-8853,Policy violation flagged wrong category,TechFlow AG,Medium,Policy Engine,Open,2026-03-23,,,User booked within budget but wrong GL category triggered policy. Need clearer violation messaging.
+ZD-8855,Mobile receipt capture - camera freezes on Android,Synthwave Digital,High,Mobile,Open,2026-03-24,,,Reproducible on Android 14+. Camera module crash. Investigating.
+ZD-8858,Want SAP integration for expense export,BrightPath Consulting,Low,Feature Request,Closed,2026-03-24,2026-03-24,,On H2 2026 roadmap. Customer added to beta list.
+ZD-8860,Expense categorization takes too long manually,Meridian Systems,Medium,UX,Open,2026-03-24,,,Known pain point. Auto-categorization (SPEND-142) targeting April 15.
